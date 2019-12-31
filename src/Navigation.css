@@ -1,0 +1,33 @@
+/* Navigation Right Styling
+----------------------------------*/
+ul {
+    margin-top: 30px;
+    background-color: pink;
+}
+
+.nav-left {
+    float: left;
+}
+
+.nav-right {
+    float: right;
+    margin: 0 15px;
+}
+/* Link & List Styling 
+----------------------------------*/
+a, a:link, a:visited{
+    text-decoration: none;
+    color: black;
+
+}
+
+/* hovering link */
+a:hover {
+    color: pink;
+    font-weight: bold;
+}
+
+/* list styling */
+ul {
+    list-style: none;
+}

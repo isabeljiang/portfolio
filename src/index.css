@@ -1,0 +1,7 @@
+/* styling for entire index file */
+
+.container {
+    align-items: center;
+    width: 90%; 
+    margin: auto;
+}
