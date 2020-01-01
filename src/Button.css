@@ -1,0 +1,30 @@
+/* Button Styling */
+button {
+    padding: 10px 25px;
+    border-radius: 8px;
+}
+
+/* Outlined Buttons */
+.outline {
+    background-color:#fff;
+    color: black;
+    border: 2px solid pink;
+
+}
+
+.outline:hover {
+    background-color: pink;
+    color: #fff;
+}
+
+/* Filled In Button */
+.filled {
+    background-color: pink;
+    color: white;
+}
+
+.filled:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid pink;
+}

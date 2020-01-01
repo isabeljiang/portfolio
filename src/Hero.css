@@ -1,0 +1,15 @@
+/* Component Spacing */
+.hero {
+    margin-top: 20px;
+}
+
+/* Text Overlay */
+.hero-text {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+}
+
+.hero-button {
+    display: inline-block;
+}
