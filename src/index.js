@@ -7,6 +7,8 @@ import Hero from "./Hero";
 import Footer from "./Footer";
 import Navigation from "./Navigation";
 import ProjectRow from "./ProjectRow";
+import ProjectTitleSquare from "./ProjectTitleSquare";
+
 
 
 const App = () => {
@@ -14,9 +16,10 @@ const App = () => {
         <div className="content-container">
             <Navigation className="block"/>
             <Hero className="block" img="Hero-HomePage" text="Isabel is a UI/UX and Product Designer"/>
-            <ProjectRow>Hello</ProjectRow>
-            <ProjectRow>Hello</ProjectRow>
-            <ProjectRow>Hello</ProjectRow>
+            <ProjectTitleSquare title="stitched" subtitle="hello"/>
+            <div className="projectrow block">
+                <ProjectTitleSquare title="stitched" subtitle="a web browser plugin organizing events on campus"></ProjectTitleSquare>
+            </div>
             <Footer/>
         </div>
     );

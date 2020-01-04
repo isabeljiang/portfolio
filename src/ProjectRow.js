@@ -1,13 +1,14 @@
 import React from 'react';
 import './ProjectRow.css';
 
-function ProjectRow(props) {
+import ProjectTitleSquare from "./ProjectTitleSquare";
+
+function ProjectRow (props) {
     return (
-        <div className="projectrow block">
-            
-        
+        <div>
+
         </div>
-    );
-};
+    )
+}
 
 export default ProjectRow;

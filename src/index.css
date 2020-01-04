@@ -5,7 +5,7 @@
     width: 90%; 
     margin: auto;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    overflow: auto;
+    overflow: hidden;
 }
 
 /* styling for all blocks of components */
@@ -28,6 +28,6 @@ p {
     font-size: small;
     color: gray;
 }
-.center-text {
+center-text {
     text-align: center;
 }
