@@ -5,8 +5,8 @@ import ProjectTitleSquare from "./ProjectTitleSquare";
 
 function ProjectRow (props) {
     return (
-        <div>
-
+        <div className="projectrow">
+            <img src={props.image}></img>
         </div>
     )
 }

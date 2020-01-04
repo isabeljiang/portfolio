@@ -1,12 +1,15 @@
 /* Component Spacing */
 .hero {
+    height: 400px;
+    margin: auto;
+    background-color: white;
     
 }
 
 /* Text Overlay */
 .hero-text {
     position: absolute;
-    top: 30%;
+    top: 20%;
     left: 10%;
 }
 

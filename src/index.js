@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import './index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Stitched from './Stitched.png';
 
 import Hero from "./Hero";
 import Footer from "./Footer";
@@ -14,12 +15,9 @@ import ProjectTitleSquare from "./ProjectTitleSquare";
 const App = () => {
     return (
         <div className="content-container">
-            <Navigation className="block"/>
-            <Hero className="block" img="Hero-HomePage" text="Isabel is a UI/UX and Product Designer"/>
-            <ProjectTitleSquare title="stitched" subtitle="hello"/>
-            <div className="projectrow block">
-                <ProjectTitleSquare title="stitched" subtitle="a web browser plugin organizing events on campus"></ProjectTitleSquare>
-            </div>
+            <Navigation/>
+            <Hero img="Hero-HomePage" text="Isabel is a UI/UX and Product Designer"/>
+            <ProjectRow image={Stitched}/>
             <Footer/>
         </div>
     );

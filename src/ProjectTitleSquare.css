@@ -1,15 +1,15 @@
 .projectTitleSquare {
-    width: 30%;
+    max-width: 300px;
+
     height: 100%;
-    background-color: white;
     text-align: center;
     padding: 100px 0;
+    float: left;
 }
 
 .content {
     width: 95%;
     height: 95%;
-    margin: auto;
-    display: inline;
+    margin: 0 50px;
     text-align: center;
 }
