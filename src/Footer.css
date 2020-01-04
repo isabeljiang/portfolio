@@ -1,0 +1,8 @@
+/* styling for Footer */
+.footer {
+    text-align: center;
+    height: 50px;
+    margin-top: 40px;
+    margin-bottom: 25px;
+    color: gray;
+}

@@ -1,13 +1,5 @@
 /* styling for entire index file */
 
-.full-page.width {
-    overflow: hidden;
-}
-.extended-content-container {
-    width: 500%;
-    margin-left: -200%;
-}
-
 .content-container {
     align-items: center;
     width: 90%; 
@@ -16,8 +8,26 @@
     overflow: auto;
 }
 
+/* styling for all blocks of components */
 .block {
     width: 100%;
     height: 100%;
+    margin-top: 25px;
     display: inline-block;
+}
+
+/* Font Hierarchy and styling */
+p {
+    font-size: small;
+}
+.title1 {
+    font-size: large;
+    font-weight: bold;
+}
+.subtitle {
+    font-size: small;
+    color: gray;
+}
+.center-text {
+    text-align: center;
 }
