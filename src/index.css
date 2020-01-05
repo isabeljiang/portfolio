@@ -19,9 +19,12 @@
 /* Font Hierarchy and styling */
 p {
     font-size: small;
+    margin: 0;
 }
+
+
 .title1 {
-    font-size: large;
+    font-size: x-large;
     font-weight: bold;
 }
 .subtitle {
